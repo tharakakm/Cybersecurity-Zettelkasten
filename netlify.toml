@@ -1,0 +1,17 @@
+[build]
+  base = "."
+  publish = "_site"
+  command = "bundle install && bundle exec jekyll build"
+
+[build.environment]
+  RUBY_VERSION = "3.2.0"
+  JEKYLL_ENV = "production"
+
+[[plugins]]
+  package = "@netlify/plugin-jekyll"
+
+# Optional: Add redirects or headers if needed
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200

@@ -1,0 +1,30 @@
+title: Cybersecurity Knowledge Base
+description: Comprehensive cybersecurity learning resource covering 11 modules from fundamentals to advanced practices
+theme: minima
+show_downloads: false
+
+# GitHub Pages settings
+url: "https://thaaaru.github.io"
+baseurl: "/cybersecurity-notes"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - INDEX-Cybersecurity-Course-MOC.md
+
+# Exclude files from the build
+exclude:
+  - .git
+  - .gitignore
+  - README.md
